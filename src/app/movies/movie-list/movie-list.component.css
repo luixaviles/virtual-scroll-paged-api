@@ -1,0 +1,7 @@
+.viewport {
+  height: 500px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e9e7e9;
+}

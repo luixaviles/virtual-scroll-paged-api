@@ -1,0 +1,11 @@
+
+<mat-list>
+  <cdk-virtual-scroll-viewport itemSize="85" class="viewport">
+    <mat-list-item *cdkVirtualFor="let movie of moviesDataSource">
+      <img mat-list-avatar [src]="movie.pictureURL">
+      <h4 mat-line>{{movie.title}}</h4>
+      <div mat-line> {{movie.overview}} </div>
+      <div mat-line> {{movie.release_date | date}} </div>
+    </mat-list-item>
+  </cdk-virtual-scroll-viewport>
+  </mat-list>
